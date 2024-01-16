@@ -1,0 +1,31 @@
+{
+  "name": "tailwind-basic",
+  "version": "1.0.0",
+  "description": "Portofolio Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "prod": "npx tailwindcss -o ./dist/output.min.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amriarendy/tailwind-basic.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwind-portofolio",
+    "tailwind-bio"
+  ],
+  "author": "amriarendy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amriarendy/tailwind-basic/issues"
+  },
+  "homepage": "https://github.com/amriarendy/tailwind-basic#readme",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
